@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Raleway:wght@200&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header h1 {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    background-color: darkslategray;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
