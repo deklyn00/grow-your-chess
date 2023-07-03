@@ -1,15 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Raleway:wght@200&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
 }
 
-header h1 {
+
+/*Headings and Icons */
+h1,
+h2 {
     font-family: 'Kanit', sans-serif;
-    text-align: center;
+    letter-spacing: 3px;
     color: aliceblue;
-    background-color: darkslategray;
+    background-color: rgb(10, 31, 31);
+}
+
+#main-heading {
+    float: left;
+    font-size: 200%;
+}
+
+#icons {
+    font-size: 270%;
     width: 100%;
-    margin: 0%;
-    padding: 0%;
+    margin: 0 auto;
+    left: 0;
+}
+
+#icons h2 {
+    text-align: center;
+}
+
+/* Options Menu */
+#options {
+    float: right;
 }
