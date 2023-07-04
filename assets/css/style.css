@@ -8,8 +8,14 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    color: rgb(4, 26, 26)
 }
 
+header {
+    height: 130px;
+    background-color: rgb(10, 31, 31);
+    position: relative;
+}
 
 /*Headings and Icons */
 h1,
@@ -17,26 +23,58 @@ h2 {
     font-family: 'Kanit', sans-serif;
     letter-spacing: 3px;
     color: aliceblue;
-    background-color: rgb(10, 31, 31);
 }
 
+/*Top Left Heading */
 #main-heading {
+    padding-top: 20px;
     float: left;
+    width: 33%;
     font-size: 200%;
 }
 
-#icons {
-    font-size: 270%;
-    width: 100%;
-    margin: 0 auto;
-    left: 0;
-}
-
-#icons h2 {
-    text-align: center;
+#main-heading a {
+    text-decoration: none;
 }
 
 /* Options Menu */
 #options {
+    padding-top: 20px;
     float: right;
+    width: 33%;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+#options li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+    margin-top: 45px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 3px;
+    font-size: 150%;
+}
+
+#options a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#options a:hover {
+    border-bottom: 5px solid aliceblue;
+    text-transform: uppercase;
+}
+
+/* Center Icons*/
+#icons {
+    padding-top: 30px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#icons h2 {
+    text-align: center;
+    font-size: 55px;
 }
