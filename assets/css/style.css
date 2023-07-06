@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    color: rgb(4, 26, 26)
+    color: aliceblue;
 }
 
 header {
@@ -16,6 +16,7 @@ header {
     background-color: rgb(10, 31, 31);
     position: relative;
 }
+
 
 /*Headings and Icons */
 h1,
@@ -77,4 +78,24 @@ h2 {
 #icons h2 {
     text-align: center;
     font-size: 55px;
+}
+
+/* Beginner Guide */
+#beginner {
+    background-color: rgb(10, 31, 31);
+    height: 600px;
+    width: 100%;
+}
+
+#gotham-introduction {
+    width: 560px;
+    height: 315px;
+    float: right;
+}
+
+#beginner-title h1 {
+    margin-left: 200px;
+    padding-top: 60px;
+    font-size: 400%;
+    text-decoration-line: underline;
 }
