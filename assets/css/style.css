@@ -6,9 +6,10 @@
     border: none;
 }
 
-body {
+body p {
     font-family: 'Raleway', sans-serif;
     color: aliceblue;
+    font-size: 200%;
 }
 
 header {
@@ -83,19 +84,31 @@ h2 {
 /* Beginner Guide */
 #beginner {
     background-color: rgb(10, 31, 31);
-    height: 600px;
+    height: 550px;
     width: 100%;
 }
 
-#gotham-introduction {
-    width: 560px;
-    height: 315px;
-    float: right;
-}
-
 #beginner-title h1 {
-    margin-left: 200px;
+    margin-left: 550px;
     padding-top: 60px;
     font-size: 400%;
     text-decoration-line: underline;
+}
+
+#about-beginner p {
+    width: 65%;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 300%;
+}
+
+#beginner-video {
+    margin-top: -350px;
+}
+
+#gotham-introduction {
+    width: 30%;
+    height: 400px;
+    float: right;
+    margin-right: 60px;
 }
