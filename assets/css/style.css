@@ -102,6 +102,10 @@ h2 {
     font-size: 300%;
 }
 
+#about-beginner a {
+    color: aliceblue;
+}
+
 #beginner-video {
     margin-top: -350px;
 }
@@ -111,4 +115,28 @@ h2 {
     height: 400px;
     float: right;
     margin-right: 60px;
+}
+
+/*What is chess.com*/
+#chess-com {
+    background-color: rgb(10, 31, 31);
+}
+
+#left-info {
+    width: 33%;
+    margin-left: 20px;
+}
+
+#left-info h2 {
+    margin-left: 200px;
+    font-size: 200%;
+    text-decoration-line: underline;
+}
+
+.right-info-heading {
+    float: right;
+    width: 33%;
+    margin-right: 200px;
+    font-size: 200%;
+    text-decoration-line: underline;
 }
