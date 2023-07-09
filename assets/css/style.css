@@ -125,6 +125,7 @@ h2 {
     padding-top: 50px;
 }
 
+/*Left content*/
 #left-info {
     Float: left;
     width: 33%;
@@ -137,16 +138,51 @@ h2 {
     text-decoration-line: underline;
 }
 
+/*right content*/
 #right-info {
     float: right;
     width: 33%;
+    margin-top: 20px;
     margin-right: 20px;
+    position: relative;
+    bottom: 400px;
 }
 
 .right-info-heading {
     float: right;
     width: 33%;
     margin-right: 200px;
+    line-height: 30px;
+    clear: both;
+    position: absolute;
+}
+
+.features-list {
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
     font-size: 200%;
-    text-decoration-line: underline;
+}
+
+#right-info h2 {
+    font-size: 200%;
+}
+
+/*Center image*/
+#chess-com-logo {
+    width: 26%;
+    margin: 0 auto;
+}
+
+#image-border {
+    height: 300px;
+    width: 450px;
+    padding: 35px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 2px;
+}
+
+#center-image {
+    background: url('../images/chess-com-information.png') no-repeat center center;
+    height: 100%;
 }
