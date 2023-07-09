@@ -106,6 +106,10 @@ h2 {
     color: aliceblue;
 }
 
+#about-beginner a:hover {
+    color: orangered;
+}
+
 #beginner-video {
     margin-top: -350px;
 }
@@ -142,15 +146,13 @@ h2 {
 #right-info {
     float: right;
     width: 33%;
-    margin-top: 20px;
-    margin-right: 20px;
     position: relative;
     bottom: 400px;
 }
 
 .right-info-heading {
     float: right;
-    width: 33%;
+    width: 30%;
     margin-right: 200px;
     line-height: 30px;
     clear: both;
@@ -161,22 +163,25 @@ h2 {
     font-family: 'Raleway', sans-serif;
     color: aliceblue;
     font-size: 200%;
+    margin-left: 100px;
 }
 
 #right-info h2 {
     font-size: 200%;
+    margin-left: 95px;
 }
 
 /*Center image*/
 #chess-com-logo {
-    width: 26%;
+    width: 29%;
     margin: 0 auto;
 }
 
 #image-border {
+    margin-top: 120px;
     height: 300px;
-    width: 450px;
-    padding: 35px;
+    width: 100%;
+    padding: 1px;
     border-style: solid;
     border-color: aliceblue;
     border-width: 2px;
@@ -185,4 +190,6 @@ h2 {
 #center-image {
     background: url('../images/chess-com-information.png') no-repeat center center;
     height: 100%;
+    width: 100%;
+
 }
