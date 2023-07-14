@@ -68,7 +68,7 @@ h2 {
 #options {
     padding-top: 20px;
     float: right;
-    width: 33%;
+    width: 40%;
     top: 0px;
     right: 0px;
     position: absolute;
@@ -321,3 +321,5 @@ h2 {
 .chess-link:hover {
     color: orangered;
 }
+
+@media screen and (max-width: 1200px) {}
