@@ -322,4 +322,26 @@ h2 {
     color: orangered;
 }
 
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+
+    #main-heading {
+        clear: both;
+        width: 100%;
+    }
+
+    #icons {
+        width: 100%;
+        padding: 30px;
+
+    }
+
+    #options {
+        position: relative;
+        clear: both;
+        float: left;
+    }
+
+    br {
+        display: none;
+    }
+}
