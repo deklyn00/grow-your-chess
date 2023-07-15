@@ -375,6 +375,25 @@ h2 {
     #beginner-title h1 {
         float: left;
         font-size: 250%;
-        margin-left: 0;
+        margin-left: 20px;
+    }
+
+    #about-beginner {
+        clear: left;
+        width: 70%;
+    }
+
+    #about-beginner p {
+        font-size: 200%;
+    }
+
+    #beginner-video {
+        width: 35%;
+        float: right;
+    }
+
+    #beginner-video iframe {
+        width: 100%;
+        margin-top: 0;
     }
 }
