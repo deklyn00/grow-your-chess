@@ -165,9 +165,13 @@ h2 {
     margin-left: 20px;
 }
 
+#left-info p {
+    font-size: 160%;
+}
+
 #left-info h2 {
-    margin-left: 200px;
-    font-size: 200%;
+    margin-left: 20px;
+    font-size: 400%;
     text-decoration-line: underline;
 }
 
@@ -175,14 +179,13 @@ h2 {
 #right-info {
     float: right;
     width: 33%;
-    position: relative;
-    bottom: 400px;
+    margin-top: -270px;
 }
 
 .right-info-heading {
     float: right;
     width: 30%;
-    margin-right: 200px;
+    margin-right: 300px;
     line-height: 30px;
     clear: both;
     position: absolute;
@@ -197,30 +200,22 @@ h2 {
 
 #right-info h2 {
     font-size: 200%;
-    margin-left: 95px;
+    margin-left: 20px;
 }
 
-/*Center image*/
-#chess-com-logo {
+/*Center icon*/
+#chess-com-king {
     width: 29%;
     margin: 0 auto;
 }
 
-#image-border {
-    margin-top: 120px;
-    height: 300px;
-    width: 100%;
-    padding: 1px;
-    border-style: solid;
-    border-color: rgb(10, 31, 31);
-    border-width: 2px;
-}
 
-#center-image {
-    background: url('../images/chess-com-information.png') no-repeat center center;
+#center-icon h2 {
     height: 100%;
     width: 100%;
-
+    margin-top: 200px;
+    text-align: center;
+    font-size: 500%;
 }
 
 /*Trailer section*/
@@ -395,5 +390,13 @@ h2 {
     #beginner-video iframe {
         width: 100%;
         margin-top: 0;
+    }
+
+    #chess-com {
+        height: 800px;
+    }
+
+    #center-icon h2 {
+        font-size: 600%;
     }
 }
