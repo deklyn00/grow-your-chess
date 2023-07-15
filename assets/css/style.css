@@ -403,7 +403,7 @@ h2 {
 }
 
 
-/*screen size for large tablets and tablets*/
+/*screen size for mobiles*/
 @media screen and (max-width: 950px) {
 
     /*Header elements*/
@@ -463,41 +463,49 @@ h2 {
         text-align: center;
     }
 
-    #beginner-title {
-        clear: both;
+    #left-info {
         width: 100%;
+        margin: 0;
     }
 
-    #beginner-title h1 {
-        float: left;
-        font-size: 250%;
-        margin-left: 20px;
-    }
-
-    #about-beginner {
-        clear: left;
-        width: 70%;
-    }
-
-    #about-beginner p {
+    #left-info h2 {
         font-size: 200%;
     }
 
-    #beginner-video {
-        width: 35%;
-        float: right;
+    #right-info {
+        clear: left;
+        width: 100%;
+        padding-top: 70px;
     }
 
-    #beginner-video iframe {
-        width: 100%;
-        margin-top: 0;
+    #right-info li {
+        font-size: 75%;
+    }
+
+    #right-info h2 {
+        font-size: 150%;
     }
 
     #chess-com {
         height: 800px;
+        margin-top: 0;
+    }
+
+    #chess-com-king {
+        clear: both;
+        width: 100%;
+    }
+
+    #center-icon {
+        width: 100%;
+        float: right;
+        padding-top: 50px;
+        margin-right: 20px;
     }
 
     #center-icon h2 {
         font-size: 600%;
+        margin-top: 0;
+        text-align: right;
     }
 }
