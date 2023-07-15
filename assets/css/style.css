@@ -88,6 +88,7 @@ h2 {
     letter-spacing: 3px;
 }
 
+
 #options a {
     color: aliceblue;
     text-decoration: none;
@@ -360,6 +361,106 @@ h2 {
         text-decoration: underline solid aliceblue;
         text-align: right;
         width: 100%;
+    }
+
+    #beginner-title {
+        clear: both;
+        width: 100%;
+    }
+
+    #beginner-title h1 {
+        float: left;
+        font-size: 250%;
+        margin-left: 20px;
+    }
+
+    #about-beginner {
+        clear: left;
+        width: 70%;
+    }
+
+    #about-beginner p {
+        font-size: 200%;
+    }
+
+    #beginner-video {
+        width: 35%;
+        float: right;
+    }
+
+    #beginner-video iframe {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #chess-com {
+        height: 800px;
+    }
+
+    #center-icon h2 {
+        font-size: 600%;
+    }
+}
+
+
+/*screen size for large tablets and tablets*/
+@media screen and (max-width: 950px) {
+
+    /*Header elements*/
+    header {
+        background-color: rgb(10, 31, 31);
+        height: 400px;
+
+    }
+
+    #main-heading {
+        width: 100%;
+        margin-left: 0px;
+        background-color: rgb(10, 31, 31);
+    }
+
+    #main-heading h1 {
+        text-align: center;
+    }
+
+    #beginner {
+        clear: both;
+    }
+
+    br {
+        display: none;
+    }
+
+    #icons {
+        clear: both;
+        background-color: rgb(10, 31, 31);
+    }
+
+    #icons h2 {
+        font-size: 40px;
+    }
+
+    #options {
+        clear: left;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        border: 0;
+        top: 200px;
+        float: right;
+    }
+
+    #options ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    #options li {
+        padding: 0;
+        margin: 0;
+        text-decoration: underline solid aliceblue;
+        width: 33%;
+        text-align: center;
     }
 
     #beginner-title {
