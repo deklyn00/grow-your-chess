@@ -56,8 +56,12 @@ h2 {
     padding-top: 20px;
     float: left;
     width: 33%;
-    font-size: 200%;
+    font-size: 180%;
     margin-left: 20px;
+}
+
+#main-heading h1 {
+    width: 100%;
 }
 
 #main-heading a {
@@ -79,9 +83,9 @@ h2 {
     list-style-type: none;
     margin-right: 50px;
     margin-top: 45px;
+    font-size: 120%;
     font-family: 'Kanit', sans-serif;
     letter-spacing: 3px;
-    font-size: 150%;
 }
 
 #options a {
@@ -322,52 +326,55 @@ h2 {
     color: orangered;
 }
 
-@media screen and (max-width: 1200px) {
+/*screen size for large tablets and tablets*/
+@media screen and (max-width: 1450px) {
 
     /*Header elements*/
+    header {
+        background-color: rgb(10, 31, 31);
+        height: 300px;
+
+    }
+
     #main-heading {
-        width: 100%;
+        width: 70%;
+        background-color: rgb(10, 31, 31);
+    }
+
+
+    #beginner {
+        clear: both;
+    }
+
+    br {
+        display: none;
     }
 
     #icons {
-        width: 100%;
-        padding: 30px;
         clear: left;
-    }
-
-    #icons h2 {
-        float: left;
+        background-color: rgb(10, 31, 31);
     }
 
     #options {
-        width: 100%;
-        position: relative;
         clear: left;
-        margin: 0;
-        text-align: left;
+        float: right;
+        width: 30%;
     }
 
     #options li {
         text-decoration: underline solid aliceblue;
+        text-align: right;
+        width: 100%;
+    }
+
+    #beginner-title {
+        clear: both;
+        width: 100%;
+    }
+
+    #beginner-title h1 {
         float: left;
-        padding: 50px;
+        font-size: 250%;
+        margin-left: 0;
     }
-
-    br {
-        width: 100%;
-        display: none;
-    }
-
-    #beginner {
-        width: 100%
-    }
-
-    #chess-walkthrough {
-        width: 100%;
-    }
-
-    #chess-com {
-        width: 100%;
-    }
-
 }
