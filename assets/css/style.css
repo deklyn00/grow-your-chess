@@ -324,24 +324,50 @@ h2 {
 
 @media screen and (max-width: 1200px) {
 
+    /*Header elements*/
     #main-heading {
-        clear: both;
         width: 100%;
     }
 
     #icons {
         width: 100%;
         padding: 30px;
-
+        clear: left;
     }
 
-    #options {
-        position: relative;
-        clear: both;
+    #icons h2 {
         float: left;
     }
 
+    #options {
+        width: 100%;
+        position: relative;
+        clear: left;
+        margin: 0;
+        text-align: left;
+    }
+
+    #options li {
+        text-decoration: underline solid aliceblue;
+        float: left;
+        padding: 50px;
+    }
+
     br {
+        width: 100%;
         display: none;
     }
+
+    #beginner {
+        width: 100%
+    }
+
+    #chess-walkthrough {
+        width: 100%;
+    }
+
+    #chess-com {
+        width: 100%;
+    }
+
 }
