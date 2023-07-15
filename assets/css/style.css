@@ -437,7 +437,7 @@ h2 {
     }
 
     #icons h2 {
-        font-size: 40px;
+        font-size: 20px;
     }
 
     #options {
@@ -461,6 +461,27 @@ h2 {
         text-decoration: underline solid aliceblue;
         width: 33%;
         text-align: center;
+        margin-top: 40px;
+    }
+
+    #about-beginner {
+        width: 100%;
+    }
+
+    #about-beginner p {
+        width: 80%;
+        text-align: center;
+    }
+
+    #beginner-video {
+        clear: both;
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    #beginner-video iframe {
+        width: 80;
+        margin: 0 auto;
     }
 
     #left-info {
@@ -472,10 +493,15 @@ h2 {
         font-size: 200%;
     }
 
+    #left-info p {
+        width: 95%;
+        text-align: center;
+    }
+
     #right-info {
         clear: left;
         width: 100%;
-        padding-top: 70px;
+        padding-top: 90px;
     }
 
     #right-info li {
@@ -487,7 +513,7 @@ h2 {
     }
 
     #chess-com {
-        height: 800px;
+        height: 850px;
         margin-top: 0;
     }
 
@@ -507,5 +533,16 @@ h2 {
         font-size: 600%;
         margin-top: 0;
         text-align: right;
+    }
+}
+
+/*correcting sizes for screens 450px and smaller*/
+@media screen and (max-width: 450px) {
+    #center-icon h2 {
+        display: none;
+    }
+
+    #right-info {
+        padding-top: 210px;
     }
 }
