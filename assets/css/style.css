@@ -307,7 +307,7 @@ h2 {
 
 #elo-video iframe {
     width: 100%;
-    height: 800px;
+    height: 500px;
     position: absolute;
     margin: 0 auto;
 }
@@ -436,6 +436,7 @@ h2 {
         width: 100%;
     }
 
+    /*home page section elements*/
     #beginner-title {
         clear: both;
         width: 100%;
@@ -472,6 +473,34 @@ h2 {
 
     #center-icon h2 {
         font-size: 600%;
+    }
+
+    /*The next level section elements*/
+    #article {
+        height: 400px;
+    }
+
+    #article-heading h1 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    #list {
+        clear: both;
+        height: 300px;
+    }
+
+    #useful-list {
+        height: 300px;
+    }
+
+    #useful-list li {
+        padding: 30px;
+    }
+
+    #elo-information p {
+        margin-left: 20px;
     }
 }
 
@@ -537,6 +566,7 @@ h2 {
         margin-top: 40px;
     }
 
+    /*homepage section elements*/
     #about-beginner {
         width: 100%;
     }
@@ -607,15 +637,35 @@ h2 {
         margin-top: 0;
         text-align: right;
     }
+
+    /*The next level section elements*/
+    #article {
+        height: 600px;
+    }
 }
 
-/*correcting sizes for screens 450px and smaller*/
-@media screen and (max-width: 450px) {
+/*correcting sizes for screens 495px and smaller*/
+@media screen and (max-width: 495px) {
+
+    /*homepage section elements*/
     #center-icon h2 {
         display: none;
     }
 
     #right-info {
         padding-top: 210px;
+    }
+
+    /*list alignment for small displays*/
+    #article {
+        height: 900px;
+    }
+
+    #useful-list li {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
     }
 }
