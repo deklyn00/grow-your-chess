@@ -21,7 +21,6 @@ header {
 /*Footer*/
 footer {
     background-image: url('../images/chess_footer.png');
-    background-repeat: none;
     background-size: cover;
     background-position-x: center;
     height: 200px;
@@ -155,8 +154,8 @@ h2 {
 #chess-com {
     background-color: rgb(10, 31, 31);
     width: 100%;
-    height: 650px;
-    padding-top: 50px;
+    height: 850px;
+    padding-top: 70px;
 }
 
 /*Left content*/
@@ -264,9 +263,9 @@ h2 {
     font-family: 'Kanit', sans-serif;
     list-style-type: none;
     float: left;
-    margin-left: 20px;
+    margin: 0;
     font-size: 150%;
-    width: 50;
+    width: 100%;
 }
 
 #useful-list li {
@@ -378,6 +377,12 @@ h2 {
     margin-top: 30px;
 }
 
+#answer {
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
 #submit {
     margin-top: 20px;
     border-radius: 2px;
@@ -392,7 +397,7 @@ h2 {
 #submit:hover {
     color: aliceblue;
     text-decoration: underline solid aliceblue;
-    background-color: rgb(10, 31, 31);
+    background-color: orangered;
 }
 
 /*screen size for large tablets and tablets*/
@@ -583,7 +588,7 @@ h2 {
     }
 
     #beginner-video iframe {
-        width: 80;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -667,5 +672,12 @@ h2 {
         padding-right: 0;
         width: 100%;
         text-align: center;
+    }
+}
+
+/*correcting footer sizes for 450px and smaller displays*/
+@media screen and (max-width: 450px) {
+    #elo {
+        height: 1200px;
     }
 }
