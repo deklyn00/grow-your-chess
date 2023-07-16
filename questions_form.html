@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow Your Chess</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/6456b20199.js" crossorigin="anonymous"></script>
+
+<body>
+    <!--Header and Logo elements-->
+    <header>
+        <div id="main-heading"><a href="index.html">
+                <h1>Grow Your Chess </h1>
+            </a>
+        </div>
+        <div id="icons">
+            <h2><i class="fa fa-chess-rook"></i><i class="fa fa-chess-knight"></i><i
+                    class="fa fa-chess-king fa-lg"></i><i class="fa fa-chess-bishop"></i><i
+                    class="fa fa-chess-rook"></i></h2>
+        </div>
+        <nav id="options">
+            <ul>
+                <li><a href="questions_form.html">Q&A?</a></li>
+                <li><a href="next_level.html">The next level</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <br>
+    <!--Questions Form -->
+    <section class="questions-form">
+        <form id="q-and-a" method="POST">
+            <h2>Q & A</h2>
+            <label for="fname"> First Name</label>
+            <input id="fname" type="text" name="first_name" required />
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email_address" required />
+            <label id="query-label" for="query">What would you like assistance with?</label>
+            <input id="query" list="questions" />
+            <datalist id="questions">
+                <option value="Chess beginner"></option>
+                <option value="Is chess.com safe?"></option>
+                <option value="can I play on mobile?"></option>
+                <option value="other"></option>
+            </datalist>
+            <textarea id="answer" value="type query here..." required></textarea>
+            <input id="submit" type="submit" value="Submit" />
+        </form>
+    </section>
+    <footer>
+        <div id="footer-rights">
+            <p>©2023 Grow Your Chess, All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
