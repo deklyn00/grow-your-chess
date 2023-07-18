@@ -90,6 +90,20 @@
 
 **Live Link:** [https://deklyn00.github.io/grow-your-chess/](https://deklyn00.github.io/grow-your-chess/)
 
+## Credits
+
+### Linked Videos:
+
+1. ["How to play chess" Video by GothamChess](https://www.youtube.com/watch?v=OCSbzArwB10)
+2. [Chess.com trailer](https://www.youtube.com/watch?v=Cwf-txEEcS0)
+3. [Elo video by singingbanana](https://www.youtube.com/watch?v=AsYfbmp0To0)
+
+### Articles:
+All linked to [chess.com](chess.com)
+
+### Images
+All images used are not open source and shall not be used for any purpose outside of this project.
+
 
 
 
