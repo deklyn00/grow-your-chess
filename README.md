@@ -17,8 +17,8 @@ FEATURES
 
   Navigation for large displays and medium displays(tablets) can be found in the right, top corner of the page with the options of "Home", "The Next Level" and "Q&A"... For mobiles the navigation menu can be found going     across the center of the page below the page heading and logo.
 
-  ![image](https://github.com/deklyn00/grow-your-chess/assets/134307267/e87de736-14a0-44b6-9a10-ee44e020e953) ![image](https://github.com/deklyn00/grow-your-chess/assets/134307267/ed67af0b-b0d2-4143-a2d0-7ba2faa1bee7) !   
-  [image](https://github.com/deklyn00/grow-your-chess/assets/134307267/4b685d94-1662-40ac-a79f-94acb9176af7)
+  ![image](https://github.com/deklyn00/grow-your-chess/assets/134307267/e87de736-14a0-44b6-9a10-ee44e020e953) ![image](https://github.com/deklyn00/grow-your-chess/assets/134307267/ed67af0b-b0d2-4143-a2d0-7ba2faa1bee7) 
+  ![image](https://github.com/deklyn00/grow-your-chess/assets/134307267/4b685d94-1662-40ac-a79f-94acb9176af7)
 
   Embedded Videos and Chess Introduction:
   The explanation of what chess is along with the embedded videos on how to play and the trailer to chess.com can be found on the landing page, the example of the videos associated with the landing page are             
