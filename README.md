@@ -1,4 +1,5 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![image](https://github.com/deklyn00/grow-your-chess/assets/134307267/b08c73ab-8b96-436f-bd45-9206d74c82a0)
+
 
 Welcome,
 
