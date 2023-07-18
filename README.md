@@ -5,6 +5,9 @@ INTRODUCTION:
 
 Grow Your Chess is a project dedicated to informing new or casual chess players of the website chess.com in which they can use to play more competitively against other players.
 
+Live Link:
+https://deklyn00.github.io/grow-your-chess/
+
 Goals:
 
 1. Giving a brief description of what chess is to new players who may not have played before along with a linked YouTube video created by "Gotham Chess" on how to play chess.
@@ -65,6 +68,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows
 1. In the GitHub repository, navigate to the Settings tab.
 2. In drop-down menu of the source section, select the Master Branch option.
 3. After the master branch has been selected, if not automatically, refresh the page and a detailed ribbon will appear on display to indicate the successful deployment.
+   Live link: https://deklyn00.github.io/grow-your-chess/
 
 
 
