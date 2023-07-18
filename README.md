@@ -1,40 +1,51 @@
 ![image](https://github.com/deklyn00/grow-your-chess/assets/134307267/b08c73ab-8b96-436f-bd45-9206d74c82a0)
 
 
-Welcome,
+INTRODUCTION:
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Grow Your Chess is a project dedicated to informing new or casual chess players of the website chess.com in which they can use to play more competitively against other players.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+Goals:
 
-## Codeanywhere Reminders
+1. Giving a brief description of what chess is to new players who may not have played before along with a linked YouTube video created by "Gotham Chess" on how to play chess.
+2. Introducing chess.com along with it's purpose and some features which also includes a linked video trailer created by chess.com themselves.
+3. Providing tips and useful information that players should know before beginning their more competitive journey through linked articles straight from the chess.com website.
+4. An explanation of an elo system for users who may be interested before playing competitively also linked via video format by the creator "singingbanana".
+5. Creating a means of communication for users via a "Q&A" page where users can fill out the form with any questions they may have for us.(Not functional and is for visual representation only)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+NAVIGATION:
 
-`python3 -m http.server`
+Navigation for large displays and medium displays(tablets) can be found in the right, top corner of the page with the options of "Home", "The Next Level" and "Q&A"... For mobiles the navigation menu can be found going across the center of the page below the page heading and logo.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![image](https://github.com/deklyn00/grow-your-chess/assets/134307267/e87de736-14a0-44b6-9a10-ee44e020e953) ![image](https://github.com/deklyn00/grow-your-chess/assets/134307267/ed67af0b-b0d2-4143-a2d0-7ba2faa1bee7) ![image](https://github.com/deklyn00/grow-your-chess/assets/134307267/4b685d94-1662-40ac-a79f-94acb9176af7)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Embedded Videos:
 
-`http_server`
+The embedded videos can be found on the landing page as well as one included on the "The Next Level" page, the example pf the videos associated with the landing page are formatted as in the image below.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![image](https://github.com/deklyn00/grow-your-chess/assets/134307267/6715a90e-f783-41b0-ad32-78233758d9fa)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Useful Articles:
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The linked articles as displayed in the image below may be presented differently based on the size of your screen, below is the default layout as seen on desktop and large displays.
 
-To log into the Heroku toolbelt CLI:
+![image](https://github.com/deklyn00/grow-your-chess/assets/134307267/534854a9-9862-416c-b69e-9820f3fa1188)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Q&A Form: (for visual purposes only... non-functional)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The Q&A form is provided to users who may have further questions or concerns. By providing their required email in the form and by selecting the type of query they have we will have a means to respond and will know the reason they are contacting us. The form appears as follows in the image below.
 
----
+![image](https://github.com/deklyn00/grow-your-chess/assets/134307267/1ab94ee3-baf2-4648-8946-334996dfc620)
 
-Happy coding!
+Conclusion:
+
+Visual bugs can be found on specific devices who's displays may have a less common screen size, these bugs could be fixed in the future with media queries as they are found.
+
+
+
+
+
+
+
+
+
