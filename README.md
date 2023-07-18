@@ -73,8 +73,8 @@
 
   Browsers tested were Chrome, Firefox, OperaGX, and Safari. All browsers performed exactly the same and as expected apart from one instance. Chrome on my iPhone12 would not display the landing page in portrait mode and     would not load the website unless tilted into landscape mode; the issue was found on no other devices and no fix was found.
 
-  All HTML passed through W3C validator.
-  All CSS passed through Jigsaw validator.
+  All HTML passed through [W3C Validator](https://validator.w3.org/).
+  All CSS passed through [Jigsaw](https://jigsaw.w3.org/css-validator/).
 
 ## Bugs
 
